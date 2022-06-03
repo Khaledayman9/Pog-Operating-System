@@ -1,5 +1,5 @@
 # Pog-Operating-System
-Pog OS is a simulation of a real operating systems implemented in Java for executing a bunch of processes using Round Robin scheduling algorithm, mutexes to ensure Mutual exclusion. Also swapping processes when executing from memory into disk and vice versa.
+Pog OS is a simulation of real operating systems implemented in Java for executing a bunch of processes using Round Robin scheduling algorithm, mutexes to ensure Mutual exclusion. Also swapping processes when executing from memory into disk and vice versa.
 
 The main memory is a static memory that consists only of 40 words and is divided in to two blocks, each block contains 20 words. Thus when a process is created or is about to execute, it will be inserted in one of these 2 blocks.
 
