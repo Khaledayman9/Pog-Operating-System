@@ -31,3 +31,14 @@ If a process is bigger in size than the size of one block and less than the size
 
 
 And if a process is bigger in size than the whole memory(Thus takes more than 40 words) then it won't be inserted in the main memory and it won't execute.
+
+# Technologies
+Project is created with:
+
+Java SE-15
+Eclipse IDE
+
+
+# Set up
+
+To run this project, just import the project as an existing project in Eclipse
