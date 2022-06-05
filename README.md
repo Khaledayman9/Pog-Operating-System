@@ -9,7 +9,8 @@ Our swapping algorithm work as follow, If a process is created or needs to execu
 we have three cases: 1st case -> The system will check if the first block in the memory is empty, if its empty, we will insert the process in the first block.
                      2nd case -> The system checked and found out the first block is occupied, then the system will check in the second block, if its empty, we will                                      insert the process in the second block.
                      3rd case -> If both blocks are occupied, then the system will swap the process in the second block with the process that is newly created or needs                                    to execute.
-  
+
+We have 3 mutexes in our program (UserInputMutex,UserOutputMutex,FileMutex)
 
 Here is an example when running the Simulation, having the 3 Programs (Program_1.txt,Program_2.txt,Program_3.txt) that will be turned into 3 Processes when they are created and inserted into the main memory and ready queue:
 
