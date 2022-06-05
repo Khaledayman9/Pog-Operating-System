@@ -7,9 +7,9 @@ The process contains a PCB, instructions and the variables assigned from the exe
 
 Our swapping algorithm work as follow, If a process is created or needs to execute and its not in the memory yet:
 we have three cases: 
-"*" 1st case -> The system will check if the first block in the memory is empty, if its empty, we will insert the process in the first block.
-"*"2nd case -> The system checked and found out the first block is occupied, then the system will check in the second block, if its empty, we will insert the process in the second block.
-"*"3rd case -> If both blocks are occupied, then the system will swap the process in the second block with the process that is newly created or needs to execute.
+* 1st case -> The system will check if the first block in the memory is empty, if its empty, we will insert the process in the first block.
+* 2nd case -> The system checked and found out the first block is occupied, then the system will check in the second block, if its empty, we will insert the process in the second block.
+*3rd case -> If both blocks are occupied, then the system will swap the process in the second block with the process that is newly created or needs to execute.
 
 We have 3 mutexes in our program (UserInputMutex,UserOutputMutex,FileMutex)
 
