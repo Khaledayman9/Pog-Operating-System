@@ -3,7 +3,7 @@ Pog OS is a simulation of real operating systems implemented in Java for executi
 
 The main memory is a static memory that consists only of 40 words and is divided in to two blocks, each block contains 20 words. Thus when a process is created or is about to execute, it will be inserted in one of these 2 blocks.
 
-The process contains a PCB, instructions and the variables assigned from the execution phase. Thus the size of a process is equivalent to the PCB attributes which are 5(procces id, proccess state, PC, first location in memory, last location in memory) and number of variables assigned (in our OS each process takes 3 variables) and the number of instructions for each program.
+The process contains a PCB, instructions and the variables assigned from the execution phase. Thus the size of a process is equivalent to the PCB attributes which are 5 (procces id, proccess state, PC, first location in memory, last location in memory) and number of variables assigned (in our OS each process takes 3 variables) and the number of instructions for each program.
 
 Our swapping algorithm work as follow, If a process is created or needs to execute and its not in the memory yet,
 we have three cases: 
@@ -32,7 +32,7 @@ If a process is bigger in size than the size of one block and less than the size
 
 
 
-And if a process is bigger in size than the whole memory(Thus takes more than 40 words) then it won't be inserted in the main memory and it won't execute.
+And if a process is bigger in size than the whole memory (takes more than 40 words) then it won't be inserted in the main memory and it won't execute.
 
 # Technologies
 Project is created with:
